@@ -4,7 +4,6 @@ from waitress import serve
 
 app = Flask(__name__)
 
-#setting up
 @app.route('/')
 @app.route('/index')
 def index():
